@@ -14,7 +14,7 @@
    - Propiedades OPO
    - Propiedades APO
 5. [Configuraciones de MARSHA](#configuraciones-de-marsha)
-   - Configuración de la Interfaz MARSHA ![Marsha Configuration](images/Imagen5.png)
+   - Configuración de la Interfaz MARSHA [documentación específica](Marsha%20Configuration/Marsha%20Configuration.md).
    - Transmisión Automática de MARSHA
    - Descarga de Tarifas
    - WS Alive
