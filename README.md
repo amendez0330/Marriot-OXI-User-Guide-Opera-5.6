@@ -143,7 +143,7 @@ Propiedades APO:
 Configuraciones generales de la aplicación.
 
 Parámetros que afectan a múltiples propiedades.
-Para más detalles sobre como configurar Parametros Globales [documentación específica](Delivery%20Retry%20Settings/Delivery%20Retry%20Settings.md).
+Para más detalles sobre como configurar Parametros Globales [documentación específica](Global%20Parameters/Global%20Parameters.md).
 ## Configuraciones de MARSHA
 MARSHA es una de las interfaces principales de OXI. Esta sección proporciona una guía completa para su configuración, incluyendo:
 
