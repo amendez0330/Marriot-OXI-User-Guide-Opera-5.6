@@ -14,7 +14,7 @@ Esta sección permite configurar un valor de reintento definido por el usuario p
 - **Impacto Global**: Esta configuración es aplicable a todo el sistema y no está limitada a una interfaz o resort específico.
 
 ## Ejemplo de Configuración
-![Delivery Retry Setup](images/delivery-retry-image-1.png)
+![Delivery Retry Setup](images/Imagen1.png)
 
 ## Pasos Finales
 - Haz clic en **OK** para guardar la configuración.
