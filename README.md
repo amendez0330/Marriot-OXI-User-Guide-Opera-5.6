@@ -15,7 +15,7 @@
    - Propiedades APO
 5. [Configuraciones de MARSHA](#configuraciones-de-marsha)
    - Configuración de la Interfaz MARSHA [documentación específica](Marsha%20Configuration/Marsha%20Configuration.md).
-   - Transmisión Automática de MARSHA
+   - Transmisión Automática de MARSHA [documentación especifica](Marsha%20Configuration/MARSHA%20Automatic%20Transmission/MARSHA%20Automatic%20Transmission.md).
    - Descarga de Tarifas
    - WS Alive
    - Versiones XML de MARSHA
