@@ -3,6 +3,16 @@
 OPERA v5.6
 
 ## Tabla de Contenido
+
+<button onclick="filterTable()">Filtrar Tabla de Contenido</button>
+
+<script>
+function filterTable() {
+  // Aquí puedes agregar el código JavaScript para filtrar la tabla de contenido
+  alert('Funcionalidad de filtrado no implementada');
+}
+</script>
+
 - [Introduction](https://github.com/amendez0330/Marriot-OXI-User-Guide-Opera-5.6/blob/main/Introduction.md) .................................................................................................................................................. 9
 - Delivery Retry Setup ................................................................................................................................... 10
 - Auto Purge Process ..................................................................................................................................... 10
