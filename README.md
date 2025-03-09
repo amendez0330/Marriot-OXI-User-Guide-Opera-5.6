@@ -127,6 +127,7 @@ Define el período de retención de datos.
 Programa la ejecución del Auto Purge en horarios de bajo uso.
 
 Monitorea los logs para asegurarte de que el proceso se ejecute correctamente.
+Para más detalles sobre como configurar el Proceso Auto Purge [documentación especifica](Auto%20Purge%20Process/Auto%20Purge%20Process.md).
 
 ## Parámetros Globales
 Los parámetros globales son configuraciones que afectan a todas las interfaces de OXI. Esta sección cubre las propiedades OPO (Opera Property) y APO (Application Property).
