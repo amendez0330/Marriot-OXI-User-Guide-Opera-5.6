@@ -16,6 +16,6 @@ Esta sección permite configurar un valor de reintento definido por el usuario p
 ## Ejemplo de Configuración
 ![Delivery Retry Setup](images/Imagen1.png)
 
-## Pasos Finales
+## Pasos Finales 
 - Haz clic en **OK** para guardar la configuración.
 - Cierra la ventana para completar el proceso.
