@@ -4,7 +4,7 @@ These values are defined for each OXI in their respective Interface Parameters s
 
 ## Ejemplo Configuracion
 ![Global Parameters](images/Imagen3.png)
-NOTE: MIDDLEWARE_URL MUST BE updated so that [HOSTNAME] matches the hostname of the server Example: if the hostname is HDQRKVMOPRSS then the MW BASE URL would be http://HDQRKVMOPRSS:80
-NOTE: MIDDLEWARE_URL CANNOT be the IP address
-NOTE: MIDDLEWARE_URL CANNOT be the OPERA URL
-NOTE: WALLET_PASSWORD is your OPERA Unified Password
+ - NOTE: MIDDLEWARE_URL MUST BE updated so that [HOSTNAME] matches the hostname of the server Example: if the hostname is HDQRKVMOPRSS then the MW BASE URL would be http://HDQRKVMOPRSS:80
+ - NOTE: MIDDLEWARE_URL CANNOT be the IP address
+ - NOTE: MIDDLEWARE_URL CANNOT be the OPERA URL
+ - NOTE: WALLET_PASSWORD is your OPERA Unified Password
