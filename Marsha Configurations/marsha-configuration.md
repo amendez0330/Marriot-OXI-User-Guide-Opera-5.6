@@ -1,1 +1,1 @@
-!Marsha Configurations](images/Imagen5.png)
+![marsha-configurations](images/Imagen5.png)
