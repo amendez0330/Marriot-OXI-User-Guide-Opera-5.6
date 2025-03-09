@@ -97,31 +97,117 @@ Sigue las instrucciones paso a paso para configurar cada interfaz.
 Consulta los Apéndices para obtener información adicional sobre mensajes de error, verificaciones de conectividad y parámetros ocultos.
 
 ## Configuración de Reintento de Entrega
-Detalles sobre cómo configurar el reintento de entrega.
+Esta sección explica cómo configurar el mecanismo de reintento de entrega para garantizar que los mensajes enviados a través de las interfaces OXI se entreguen correctamente, incluso en caso de fallos temporales.
 
+Pasos:
+
+Accede a la configuración de reintento en el sistema.
+
+Define el número máximo de reintentos.
+
+Establece el intervalo de tiempo entre reintentos.
+
+Configura las notificaciones en caso de fallo persistente.
 ## Proceso de Auto Purge
-Explicación del proceso de auto purge y su importancia.
+El proceso de Auto Purge elimina automáticamente los datos antiguos o innecesarios de las bases de datos para optimizar el rendimiento del sistema. Esta sección describe cómo habilitar y configurar este proceso.
+
+Importancia:
+
+Libera espacio en la base de datos.
+
+Mejora el rendimiento del sistema.
+
+Reduce el riesgo de corrupción de datos.
+
+Configuración:
+
+Define el período de retención de datos.
+
+Programa la ejecución del Auto Purge en horarios de bajo uso.
+
+Monitorea los logs para asegurarte de que el proceso se ejecute correctamente.
 
 ## Parámetros Globales
-Descripción de los parámetros globales, incluyendo las propiedades OPO y APO.
+Los parámetros globales son configuraciones que afectan a todas las interfaces de OXI. Esta sección cubre las propiedades OPO (Opera Property) y APO (Application Property).
 
+Propiedades OPO:
+
+Configuraciones específicas para cada propiedad.
+
+Parámetros relacionados con la conectividad y la autenticación.
+
+Propiedades APO:
+
+Configuraciones generales de la aplicación.
+
+Parámetros que afectan a múltiples propiedades.
 ## Configuraciones de MARSHA
-Detalles completos sobre la configuración de MARSHA, incluyendo la interfaz, transmisión automática, códigos de conversión, métodos de comunicación, y más.
+MARSHA es una de las interfaces principales de OXI. Esta sección proporciona una guía completa para su configuración, incluyendo:
 
+Configuración de la Interfaz: Detalles sobre cómo conectar MARSHA con OPERA.
+
+Transmisión Automática: Configuración de la programación de transmisiones automáticas.
+
+Códigos de Conversión: Lista de códigos utilizados para la conversión de datos.
+
+Métodos de Comunicación: Descripción de los métodos de comunicación disponibles.
 ## Configuraciones de SGI
-Información sobre la configuración de SGI, incluyendo la interfaz, transmisión automática, códigos de conversión, y métodos de comunicación.
+La interfaz SGI (Starwood Guest Information) se utiliza para gestionar la información de los huéspedes. Esta sección incluye:
+
+Configuración de la Interfaz: Pasos para configurar la conexión entre SGI y OPERA.
+
+Transmisión Automática: Programación de transmisiones automáticas.
+
+Códigos de Conversión: Lista de códigos utilizados en SGI.
 
 ## Configuraciones de MIMPG
-Detalles sobre la configuración de MIMPG, incluyendo la interfaz, transmisión automática, códigos de conversión, y métodos de comunicación.
+MIMPG es una interfaz utilizada para la gestión de perfiles. Esta sección cubre:
+
+Configuración de la Interfaz: Instrucciones para configurar MIMPG.
+
+Transmisión Automática: Configuración de transmisiones automáticas.
+
+Códigos de Conversión: Lista de códigos utilizados en MIMPG.
+
+
 
 ## Configuraciones de MISFA
-Información sobre la configuración de MISFA, incluyendo la interfaz, transmisión automática, códigos de conversión, y métodos de comunicación.
+MISFA es una interfaz utilizada para la gestión de reservas y tarifas. Esta sección incluye:
+
+Configuración de la Interfaz: Pasos para configurar MISFA.
+
+Transmisión Automática: Programación de transmisiones automáticas.
+
+Códigos de Conversión: Lista de códigos utilizados en MISFA.
 
 ## Configuración Relacionada de OPERA PMS
-Detalles sobre la configuración relacionada en OPERA PMS, como códigos de hotel, mercado, tarjetas de crédito, etc.
+Esta sección cubre configuraciones adicionales en OPERA PMS que son relevantes para OXI, como:
+
+Códigos de Hotel: Configuración de códigos únicos para cada propiedad.
+
+Códigos de Mercado: Definición de mercados y segmentos.
+
+Tarjetas de Crédito: Configuración de métodos de pago aceptados.
+
+Características de Habitaciones: Definición de tipos de habitaciones y sus características.
+
+Códigos de Moneda: Configuración de monedas aceptadas.
+
+
 
 ## Apéndices
-Sección que incluye mensajes de error, verificaciones de conectividad, y parámetros ocultos.
+Los apéndices proporcionan información adicional para la resolución de problemas y la verificación de configuraciones:
 
+Apéndice A: Mensajes de error comunes en MARSHA y cómo solucionarlos.
+
+Apéndice B: Mensajes de error comunes en SGI y cómo solucionarlos.
+
+Apéndice C: Verificación de conectividad con Marriott Bonvoy.
+
+Apéndice D: Flujo de estado de MARSHA/OXI.
+
+Apéndice E: Verificación de conectividad con MIMPG.
+
+Apéndice F: Parámetros ocultos de OXI.
 ## Registro de Cambios del Documento
 Historial de cambios realizados en el documento.
