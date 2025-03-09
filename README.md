@@ -8,10 +8,245 @@ OPERA v5.6
 
 <script>
 function filterTable() {
-  // Aquí puedes agregar el código JavaScript para filtrar la tabla de contenido
-  alert('Funcionalidad de filtrado no implementada');
+  const input = document.getElementById('searchInput');
+  const filter = input.value.toLowerCase();
+  const ul = document.querySelector('ul');
+  const li = ul.getElementsByTagName('li');
+
+  for (let i = 0; i < li.length; i++) {
+    const a = li[i].getElementsByTagName('a')[0];
+    if (a) {
+      const txtValue = a.textContent || a.innerText;
+      if (txtValue.toLowerCase().indexOf(filter) > -1) {
+        li[i].style.display = "";
+      } else {
+        li[i].style.display = "none";
+      }
+    }
+  }
 }
 </script>
+
+<ul>
+  <li><a href="https://github.com/amendez0330/Marriot-OXI-User-Guide-Opera-5.6/blob/main/Introduction.md">Introduction</a></li>
+  <li>Delivery Retry Setup</li>
+  <li>Auto Purge Process</li>
+  <li>Global Parameters
+    <ul>
+      <li>OPO Properties</li>
+      <li>APO Properties</li>
+    </ul>
+  </li>
+  <li>MARSHA Configurations</li>
+  <li>MARSHA Interface Setup</li>
+  <li>MARSHA Automatic Transmission</li>
+  <li>Rate Download</li>
+  <li>WS Alive</li>
+  <li>MARSHA XML VERSIONS</li>
+  <li>MARSHA Conversion Codes</li>
+  <li>Active Conversion Codes</li>
+  <li>Address Types</li>
+  <li>Country Code</li>
+  <li>Currency Code</li>
+  <li>Guarantee Request Code</li>
+  <li>Guest Preference</li>
+  <li>Membership Level</li>
+  <li>Membership Type</li>
+  <li>Payment Method</li>
+  <li>Phone Type</li>
+  <li>Profile Type</li>
+  <li>Rate Category</li>
+  <li>Reservation Action Type</li>
+  <li>Reservation Status</li>
+  <li>Reservation Type</li>
+  <li>Room Pool</li>
+  <li>Title</li>
+  <li>MARSHA Comm Methods</li>
+  <li>AR Validation</li>
+  <li>Availability</li>
+  <li>Block</li>
+  <li>External System to OPERA</li>
+  <li>Guaranteeable Preferences</li>
+  <li>Inventory Control</li>
+  <li>OPERA to External System</li>
+  <li>Preference Configuration</li>
+  <li>Profile Lookup Fetch</li>
+  <li>Profile Lookup Fetch TA</li>
+  <li>Rate</li>
+  <li>Reservation</li>
+  <li>Room</li>
+  <li>MARSHA Interface Defaults</li>
+  <li>Reservation</li>
+  <li>Profiles</li>
+  <li>Rates</li>
+  <li>Blocks</li>
+  <li>Others</li>
+  <li>MARSHA Interface Parameters</li>
+  <li>OXI_BLOCKS</li>
+  <li>OXI_GENERIC</li>
+  <li>OXI_MESSAGES</li>
+  <li>OXI_PROFILES</li>
+  <li>OXI_RATES</li>
+  <li>OXI_RESERVATIONS</li>
+  <li>OXI_TRANSPORT (OPO Properties)</li>
+  <li>OXI_TRANSPORT (APO Properties)</li>
+  <li>MARSHA Profile Matching</li>
+  <li>Internal Entry Match Criteria</li>
+  <li>Examples of Entry Match Criteria</li>
+  <li>Setting the Merge Rules</li>
+  <li>MARSHA Business Events</li>
+  <li>External Systems</li>
+  <li>Configuration</li>
+  <li>Queue Status</li>
+  <li>MARSHA RTA Error Code Handling</li>
+  <li>SGI Configurations</li>
+  <li>Related OPERA Application Settings</li>
+  <li>SGI Interface Setup</li>
+  <li>SGI Automatic Transmission Schedule</li>
+  <li>Profile Request</li>
+  <li>SGI XML VERSION</li>
+  <li>SGI Conversion Codes</li>
+  <li>Active Conversion Codes</li>
+  <li>Address Types</li>
+  <li>Country Code</li>
+  <li>Gender</li>
+  <li>Guest Preference Type</li>
+  <li>Language Code</li>
+  <li>Membership Level</li>
+  <li>Membership Type</li>
+  <li>Phone Type</li>
+  <li>Profile Type</li>
+  <li>Request (SGI)</li>
+  <li>Reservation Action Type</li>
+  <li>Reservation Status</li>
+  <li>Title</li>
+  <li>SGI Comm Methods</li>
+  <li>Award Order Instant Redempt.</li>
+  <li>Award Processor</li>
+  <li>Award Search Instant Redemp.</li>
+  <li>Enrollment</li>
+  <li>Export Files</li>
+  <li>External System to OPERA</li>
+  <li>FBA Award Order</li>
+  <li>FBA Award Search</li>
+  <li>OPERA to External System</li>
+  <li>PreArrivalResponse</li>
+  <li>Profile Instant Redemption</li>
+  <li>Profile Lookup Fetch</li>
+  <li>SGI Interface Defaults</li>
+  <li>SGI Interface Parameters</li>
+  <li>OXI_BLOCKS</li>
+  <li>OXI_GENERIC</li>
+  <li>OXI_INVENTORY</li>
+  <li>OXI_MESSAGES</li>
+  <li>OXI_PROFILES</li>
+  <li>OXI_RATES</li>
+  <li>OXI_RESERVATIONS</li>
+  <li>OXI_TRANSPORT (OPO Properties)</li>
+  <li>OXI_TRANSPORT (APO Properties)</li>
+  <li>SGI Business Events</li>
+  <li>External Systems</li>
+  <li>Configuration</li>
+  <li>Queue Status</li>
+  <li>MIMPG Configurations</li>
+  <li>MIMPG Automatic Transmission Schedule</li>
+  <li>MIMPG Interface Setup (OPO Properties)</li>
+  <li>MIMPG Interface Setup (APO Properties)</li>
+  <li>MIMPG XML VERSION</li>
+  <li>MIMPG Conversion Codes</li>
+  <li>Active Conversion Codes</li>
+  <li>Gender</li>
+  <li>Guest Preference Type</li>
+  <li>Membership Type</li>
+  <li>Profile Type</li>
+  <li>Reservation Action Type</li>
+  <li>Reservation Status</li>
+  <li>MIMPG Comm Methods</li>
+  <li>OPERA to External System</li>
+  <li>Export Files (APO Properties)</li>
+  <li>MIMPG Interface Defaults</li>
+  <li>MIMPG Interface Parameters</li>
+  <li>OXI_BLOCK</li>
+  <li>OXI_GENERIC</li>
+  <li>OXI_INVENTORY</li>
+  <li>OXI_MESSAGES</li>
+  <li>OXI_PROFILES</li>
+  <li>OXI_RATES</li>
+  <li>OXI_RESERVATIONS</li>
+  <li>OXI_TRANSPORT</li>
+  <li>MIMPG Business Events</li>
+  <li>External Systems</li>
+  <li>Configuration</li>
+  <li>Queue Status</li>
+  <li>MISFA Configurations</li>
+  <li>MISFA Automatic Transmission Schedule</li>
+  <li>MISFA Interface Setup</li>
+  <li>MISFA XML VERSION</li>
+  <li>MISFA Conversion Codes</li>
+  <li>Active Conversion Codes</li>
+  <li>Address Type</li>
+  <li>Block/Event/FITContract Status</li>
+  <li>Guest Preference type</li>
+  <li>Phone Type</li>
+  <li>Profile Type</li>
+  <li>Reservation Action Type</li>
+  <li>Reservation Status</li>
+  <li>Reservation Type</li>
+  <li>Room Type - SFAWeb</li>
+  <li>Room Type - CI</li>
+  <li>TA Commission Code</li>
+  <li>MISFA Comm Methods</li>
+  <li>External System to OPERA</li>
+  <li>OPERA to External System</li>
+  <li>MISFA Interface Defaults</li>
+  <li>Reservation</li>
+  <li>Profiles</li>
+  <li>Rates</li>
+  <li>Blocks</li>
+  <li>Others</li>
+  <li>MISFA Interface Parameters</li>
+  <li>OXI_BLOCK</li>
+  <li>OXI_GENERIC</li>
+  <li>OXI_INVENTORY</li>
+  <li>OXI_MESSAGES</li>
+  <li>OXI_PROFILES</li>
+  <li>OXI_RATES</li>
+  <li>OXI_RESERVATIONS</li>
+  <li>OXI_TRANSPORT</li>
+  <li>MISFA Profile Matching</li>
+  <li>Internal Entry Match Criteria</li>
+  <li>Examples of Entry Match Criteria</li>
+  <li>Setting the Merge Rules</li>
+  <li>MISFA Business Events</li>
+  <li>Related OPERA PMS Configuration</li>
+  <li>Hotel Code</li>
+  <li>Market Codes</li>
+  <li>Credit Cards</li>
+  <li>Room Features</li>
+  <li>Specials</li>
+  <li>Currency Codes</li>
+  <li>OXI User Setup</li>
+  <li><a href="https://github.com/amendez0330/Marriot-OXI-User-Guide-Opera-5.6/tree/main/Marsha-Errors">Appendix A – Sample OXI MARSHA Log Error Messages</a></li>
+  <li><a href="https://github.com/amendez0330/Marriot-OXI-User-Guide-Opera-5.6/tree/main/Marsha-Errors">MESSAGES TO EXTERNAL SYSTEM</a></li>
+  <li>Appendix B – Sample SGI Error Log Messages</li>
+  <li>MESSAGES FROM EXTERNAL SYSTEM</li>
+  <li>Warnings</li>
+  <li>Errors</li>
+  <li>MESSAGES TO EXTERNAL SYSTEM</li>
+  <li>Errors</li>
+  <li>Appendix C – Verify Connectivity to Marriott Bonvoy</li>
+  <li>OPERA to SGI/Marriott Bonvoy Interface</li>
+  <li>OPERA to Marriott Bonvoy Instant Redemption Services</li>
+  <li>OPERA to SGI/Marriott Bonvoy Get Profile Lookup Service</li>
+  <li>Appendix D – MARSHA/OXI Status Flow / Balancing</li>
+  <li>OXI Message to external system</li>
+  <li>Appendix E – Verify Connectivity to MIMPG</li>
+  <li>Appendix F – Hidden OXI Parameters</li>
+  <li>MARSHA</li>
+  <li>SGI</li>
+  <li>MIMPG</li>
+  <li>Document Change Log</li>
+</ul>
 
 - [Introduction](https://github.com/amendez0330/Marriot-OXI-User-Guide-Opera-5.6/blob/main/Introduction.md) .................................................................................................................................................. 9
 - Delivery Retry Setup ................................................................................................................................... 10
