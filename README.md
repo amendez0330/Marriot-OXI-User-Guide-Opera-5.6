@@ -86,7 +86,15 @@
 ---
 
 ## Introducción
-Breve descripción del propósito del documento y cómo utilizar esta guía.
+Este documento es una guía de usuario para la configuración y uso de Marriott OXI en OPERA v5.6. Está diseñado para ayudar a los administradores y técnicos a comprender y configurar las interfaces de OXI, incluyendo MARSHA, SGI, MIMPG y MISFA. A continuación, se detallan los pasos necesarios para configurar cada componente, así como los parámetros globales y las mejores prácticas para garantizar un funcionamiento óptimo.
+
+Cómo utilizar esta guía:
+
+Navega por la Tabla de Contenido para encontrar la sección relevante.
+
+Sigue las instrucciones paso a paso para configurar cada interfaz.
+
+Consulta los Apéndices para obtener información adicional sobre mensajes de error, verificaciones de conectividad y parámetros ocultos.
 
 ## Configuración de Reintento de Entrega
 Detalles sobre cómo configurar el reintento de entrega.
