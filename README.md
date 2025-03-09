@@ -110,7 +110,7 @@ Establece el intervalo de tiempo entre reintentos.
 Configura las notificaciones en caso de fallo persistente.
 
 ## Configuración de Reintento de Entrega
-Para más detalles sobre cómo configurar el reintento de entrega, consulta la [documentación específica](Configuraciones/delivery-retry-setup.md).
+Para más detalles sobre cómo configurar el reintento de entrega, consulta la [documentación específica](Delivery Retry Settings/Delivery Retry Settings.md). 
 ## Proceso de Auto Purge
 El proceso de Auto Purge elimina automáticamente los datos antiguos o innecesarios de las bases de datos para optimizar el rendimiento del sistema. Esta sección describe cómo habilitar y configurar este proceso.
 
